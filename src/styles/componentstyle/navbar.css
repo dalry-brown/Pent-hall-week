@@ -20,7 +20,7 @@
 .nav-items{
     box-sizing: border-box;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

@@ -5,6 +5,7 @@ import { DataContext } from '../context/DataContext'
 import Navbar from '../components/Navbar'
 import Gradient from '../components/Gradient'
 import Carousel from '../components/Carousel'
+import EventPageContainer from '../components/EventPageContainer'
 
 const Stands = () => {
 

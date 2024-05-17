@@ -18,16 +18,18 @@ export const eventData = {
             "date3": "2024",
             "location": "Block A",
             "time": "11PM - 4PM..",
-            "img": bikini
+            "img": bikini,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
         },
         {
             "id": 2,
             "route": "/events",
-            "title": "Sally's Bar",
+            "title": "Macho Friday",
             "date": "Sat 3rd Dec 2024",
             "location": "Block A",
             "time": "11PM - 4PM..",
-            "img": macho
+            "img": macho,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
         },
         {
             "id": 3,
@@ -39,8 +41,47 @@ export const eventData = {
             "date3": "2024",
             "location": "Block A",
             "time": "11PM - 4PM..",
-            "img": fifa
+            "img": fifa,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
+
         },
+        {
+            "id": 4,
+            "route": "/events",
+            "title": "Bikini Car Wash",
+            "date": "Sat 3rd Dec 2024",
+            "date1": "Sat,",
+            "date2": "3rd Dec",
+            "date3": "2024",
+            "location": "Block A",
+            "time": "11PM - 4PM..",
+            "img": bikini,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
+        },
+        {
+            "id": 5,
+            "route": "/events",
+            "title": "Sally's Bar",
+            "date": "Sat 3rd Dec 2024",
+            "location": "Block A",
+            "time": "11PM - 4PM..",
+            "img": macho,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
+        },
+        {
+            "id": 6,
+            "route": "/events",
+            "title": "FIFA Tournament",
+            "date": "Sat 3rd Dec 2024",
+            "date1": "Sat,",
+            "date2": "3rd Dec",
+            "date3": "2024",
+            "location": "Block A",
+            "time": "11PM - 4PM..",
+            "img": fifa,
+            "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi praesentium laboriosam voluptatum similique aspernatur assumenda beatae, eos, autem totam hic vel. Sunt, deserunt cupiditate. Commodi maxime quo perferendis sunt?"
+
+        }
     ],
     "stands": [
         {

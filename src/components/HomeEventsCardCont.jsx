@@ -10,7 +10,7 @@ const HomeEventsCardCont = () => {
 
   const { events, search } = useContext(DataContext)
 
-  const newEvent = events.filter(event => ((event.title).toLowerCase().includes(search.toLowerCase())))
+  const newEvent = events.filter(event => ((event.title).toLowerCase().includes(search.toLowerCase()))).slice(0, 3)
 
   return (
     <div className="homeEventsCardContainer">

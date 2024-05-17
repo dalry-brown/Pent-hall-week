@@ -4,8 +4,9 @@ import "../styles/componentstyle/search.css"
 import { FaSearch } from "react-icons/fa"
 import { FaCaretRight } from "react-icons/fa"
 import { DataContext } from '../context/DataContext'
+import { Link } from 'react-router-dom'
 
-const Search = ({ placeholder, title }) => {
+const Search = ({ placeholder, title, navig }) => {
 
     const { search, setSearch } = useContext(DataContext)
 
@@ -26,9 +27,9 @@ const Search = ({ placeholder, title }) => {
                   </form>
               </div>
               <div className="filter">
-                    <button>
-                      <a href="#">{ title }</a>
-                  </button>
+                <Link to={navig} style={{textDecoration: "none", color: "red"}}>  
+                  <button>{ title }</button>
+                </Link>
                   <div className="caretright">
                     <FaCaretRight/>
                   </div>

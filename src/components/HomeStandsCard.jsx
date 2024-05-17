@@ -4,7 +4,7 @@ import bikini from "../assets/images/bikini.jpg"
 import { Link } from 'react-router-dom'
 import { FaMapMarker } from 'react-icons/fa'
 
-const HomeStandsCard = ({stand, placeholder, title}) => {
+const HomeStandsCard = ({stand}) => {
   return (
         <div className="homeEventCard">
             <div className="homeEventRight">

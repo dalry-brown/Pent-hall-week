@@ -1,24 +1,24 @@
 import React from 'react'
 import '../styles/viewstyle/events.css'
+import { useContext } from 'react'
+import { DataContext } from '../context/DataContext'
+import Navbar from '../components/Navbar'
+import Gradient from '../components/Gradient'
 import Carousel from '../components/Carousel'
-import fire1 from '../assets/images/firework.jpg'
-import fire2 from '../assets/images/firework2.jpg'
-import fire3 from '../assets/images/mainfirework.jpg'
+import EventPageContainer from '../components/EventPageContainer'
 
 const Events = () => {
 
-    const images = [
-        fire1,
-        fire2,
-        fire3
-    ]
+  const { carouselStandsImages } = useContext(DataContext)
 
   return (
       <>
-        <h1 className='eventheading'>
-        Events Page
-        </h1>
-        <Carousel images={images} />
+        <main className="eventsPage">
+            <Navbar />
+            <Carousel images={carouselStandsImages}/>
+            <Gradient />
+            <EventPageContainer />
+        </main>
       </>
   )
 }

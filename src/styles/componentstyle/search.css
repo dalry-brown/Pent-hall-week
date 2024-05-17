@@ -1,6 +1,6 @@
 .search-container{
     box-sizing: border-box;
-    padding: 10px 15px;
+    padding: 10px 15px 0 10px;
     background-color: #020015;
 }
 
@@ -85,7 +85,7 @@
     gap: 10px;
 }
 
-.filter button a{
+.filter button{
     text-decoration: none;
     color: white;
     font-size: 16px;

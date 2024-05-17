@@ -20,10 +20,10 @@ const Home = () => {
       <Navbar />
       <Carousel images={carouselHomeImages} />
       <Gradient />
-      <Search placeholer={ `Search Events` } title={'All Events' } />
+      <Search placeholder="Search Events" title={'All Events'} navig="/events"  />
       <HomeEventsCardCont />
       <Countdown />
-      <Search placeholer={ `Search Stands` } title={'All Stands' } />
+      <Search placeholder="Search Stands" title={'All Stands'}  navig="/stands" />
       <HomeStandsCont/>
       <Footer />
     </main>
