@@ -58,8 +58,29 @@ export const DataProvider = ({ children }) => {
 
     const [search, setSearch] = useState("")
 
+    const [windowSize, setWindowSize] = useState({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    
+      const handleResize = () => {
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      };
+    
+      useEffect(() => {
+        window.addEventListener('resize', handleResize);
+            return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, [])
+    
+    console.log(windowSize.width)
+
     return (
-        <DataContext.Provider value={{ carouselHomeImages, carouselStandsImages, search, setSearch, stands, events, backgroundColor, setBackgroundColor, handleScroll }}>
+        <DataContext.Provider value={{ windowSize, carouselHomeImages, carouselStandsImages, search, setSearch, stands, events, backgroundColor, setBackgroundColor, handleScroll }}>
             {children}
         </DataContext.Provider>
     )
