@@ -10,7 +10,6 @@ import anniversaryImage from '../assets/eventImages/annivesary.jpg';
 import cookingCompetition from '../assets/eventImages/cooking_competition.jpg';
 import gospelRockShow from '../assets/eventImages/rockshow.jpg';
 
-
 export const eventData = {
   events: [
     {
