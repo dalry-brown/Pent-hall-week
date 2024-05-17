@@ -1,0 +1,5 @@
+.gradient{
+    background: linear-gradient(to right, #CDE99E, #A5E7A6, #73E2B4, #00CFDB, #04CBD7);
+    box-sizing: border-box;
+    padding: 2.3px 0;
+}
